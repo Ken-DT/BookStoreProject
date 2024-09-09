@@ -18,7 +18,11 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    "allowJs": true, // Add this (optional)
+    "esModuleInterop": true, // Add this
+    "forceConsistentCasingInFileNames": true // Add this
   },
   "include": ["src"]
 }
