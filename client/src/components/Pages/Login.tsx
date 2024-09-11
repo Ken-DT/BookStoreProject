@@ -9,6 +9,9 @@ interface ILoginResponse {
   expiry?: number;
 }
 
+// Set the base URL for all Axios requests
+axios.defaults.baseURL = "http://localhost:3000";
+
 function Login() {
   /**
    * Handling authentication
@@ -31,6 +34,7 @@ function Login() {
     e.preventDefault();
 
     setIsLoading(true);
+    setErrorMessage(""); // Clear previous errors
 
     try {
       const { data } = await axios.post<ILoginResponse>(

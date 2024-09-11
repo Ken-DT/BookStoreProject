@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 import ProtectedRoute from "./ProtectedRoute";
 
-import Login from "../Login/Login";
-import Home from "../Home/Home";
+import Login from "../Pages/Login";
+import Home from "../Pages/Home";
 import FileNotFound from "../FileNotFound/FileNotFound";
 
 function Router() {
