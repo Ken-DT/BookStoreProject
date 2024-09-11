@@ -3,8 +3,8 @@ import React from 'react';
 const BookDetails: React.FC = () => {
   return (
     <div>
-      <h1>Book Details</h1>
-      {/* Form elements for search will go here */}
+      <h1>Book Details Screen</h1>
+      {/* Placeholder for the book details */}
     </div>
   );
 };

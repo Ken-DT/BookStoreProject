@@ -3,8 +3,8 @@ import React from 'react';
 const Bookshelf: React.FC = () => {
   return (
     <div>
-      <h1>Book Shelf</h1>
-      {/* Form elements for Bookshelf will go here */}
+      <h1>Bookshelf Screen</h1>
+      {/* Placeholder for bookshelf functionality */}
     </div>
   );
 };
